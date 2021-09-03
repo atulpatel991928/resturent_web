@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  
+}
+.wrapper{
+    display: grid;
+    grid-column: auto;
+}
+.menu ul {
+    display: grid;
+    grid-gap: 8px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: yellow;
+}
+.top {
+    float:left;
+    display: grid;
+    grid-gap: 300px;
+    grid-template-areas:
+        "hero hero cta1"
+        "hero hero cta2";
+    background-color: rgb(230, 208, 19);
+}
+.web{float: right;
+    text-align: center;
+    background-color: yellow;
+    display: grid;
+    grid-gap: 85px;
+    justify-items: center;
+    align-content: center;
+}
