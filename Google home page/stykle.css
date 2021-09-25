@@ -1,0 +1,196 @@
+/* BASIC STYLES */
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-image: url('../Google home page/alessandro-zanini-4mvoBPemhT4-unsplash.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+  }
+  
+  header {
+    /* background-color: black; */
+    
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* NAV BAR */
+  #nav_bar {
+    float: right;
+    
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    /* border-radius: 3px;  */
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    color: #404040;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #sign_in:hover { 
+    /* box-shadow: 1px 1px 5px #999; */
+  }
+  
+  #sign_in {
+    color: #fff;
+  }
+  
+  /* GOOGLE AREA */
+  .google #google_logo {
+    text-align: center;
+    display: block;
+    
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+  
+  .form {
+    text-align: center;
+    
+  }
+  
+  #form-search { 
+    width: 600px;
+    line-height: 30px;
+    /* padding: 20px; */
+  }
+  
+  .form #form-search {
+    padding:  8px;
+    border-radius: 2rem;
+    border-color: gainsboro;
+    border: 1px solid gainsboro;
+    outline: none;
+  }
+  .form #form-search:hover{
+    border-block-start-color: blue;
+    border-block-end-color: red;
+    
+  }
+  
+  
+  
+  .buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 300px;
+    
+    
+  }
+  .buttons #submit{
+    border-style: none;
+    border-color: lime;
+  }
+  
+  /* FOOTER */
+  footer  {
+    background-color: rgb(235, 202, 202);
+    border-top: solid .5px gray;
+
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  footer ul li {
+    display: inline;
+    color:gray;
+    font-size: 14px;
+    padding: 13px;
+    
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width: 50px) {
+   
+    li.nav-links a {
+      display: none;
+    }
+    
+   footer {
+    bottom: 0;
+    position:absolute;
+     bottom:0;
+     width:100%;
+     height:60px;
+     background-color: blue;
+   }
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 100px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  }
+  .buttons .lang {
+    position:absolute;
+     bottom:0;
+     width:100%;
+     height: 200px;
+     color: blue;
+     font-family: sans-serif;
+     font-size: .8rem;
+     
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
