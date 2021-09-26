@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {background-color:#161F55;
+    Color:gold;}
+    h1 {text-align:center; 
+    Color:#F8FCF8; 
+    font-size:300%; 
+    font-family: fantasy; 
+    font-stretch: semi-expanded;}
+    table{border-collapse: collapse;}
+    table,td,th {border: 2px Solid #CC0000;
+    
+}
+    th{background-color:#161F55;
+    color:white;}
+    td{background-color:#92CD00;
+    color:#161F55;}
+    p,p1,p2{font-family: cursive}
+    a{color:#FAD8D1; }
+    .team{font-family: BOLD}
